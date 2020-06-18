@@ -28,6 +28,7 @@ public class six extends AppCompatActivity {
                     int flour;
                     int egg;
                     int s;
+                    int salt;
                     TextView result = (TextView)findViewById(R.id.tv5);
                     s=fq*10;
                     result.setText("草莓醬"+s+"g");
@@ -44,6 +45,10 @@ public class six extends AppCompatActivity {
                     TextView result3 = (TextView)findViewById(R.id.tv8);
                     egg=fq*50;
                     result3.setText("雞蛋"+egg+"g");
+
+                    TextView result4 = (TextView)findViewById(R.id.tv9);
+                    salt=fq*5;
+                    result4.setText("雞蛋"+salt+"g");
 
                 }
             }
